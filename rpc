@@ -18,8 +18,8 @@ void main()
             }
         }
         while (r>10||r<2);
-        printf("enter your choice");
-        scanf("%c",&c);
+        printf("enter your choice ");
+        scanf(" %c",&c);
         if(r<=3)
         p='r';
         else if(r<=6)
@@ -42,4 +42,11 @@ void main()
         printf("computer score = %d\nyour score = %d\n",pp,cp);
 
     }
+    if(cp>pp)
+    printf("\n\n\n !!! you won !!!\n");
+    else
+    {
+        printf("\n\n\n !!! computer wins !!!\n");
+    }
+    
 }
